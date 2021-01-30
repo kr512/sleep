@@ -1,0 +1,1 @@
+import{S as t,i as e,s,q as a,d as n,n as i}from"./client.6907e043.js";function l(t){return{c(){this.h()},l(t){a('[data-svelte="svelte-65z7zb"]',document.head).forEach(n),this.h()},h(){document.title="Settings (Sleep)"},m:i,p:i,i:i,o:i,d:i}}export default class extends t{constructor(t){super(),e(this,t,null,l,s,{})}}
