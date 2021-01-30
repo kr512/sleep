@@ -1,0 +1,8 @@
+{
+	"background_color": "#ffffff",
+	"theme_color": "#333333",
+	"name": "Sleep (512.kr)",
+	"short_name": "Sleep",
+	"display": "minimal-ui",
+	"start_url": "/"
+}
