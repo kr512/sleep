@@ -1,6 +1,6 @@
 {
-  "name": "Sleep (kr512)",
-  "description": "Sleep (kr512)",
+  "name": "Sleep",
+  "description": "Sleep by kr512",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
