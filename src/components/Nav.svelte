@@ -19,6 +19,11 @@
 	.logo {
 		width: 130px;
 		height: 65px;
+		opacity: 1;
+		transition: all 0.3s;
+	}
+	.logo:hover {
+		opacity: .8;
 	}
 	.video {
 		position: fixed;
@@ -67,15 +72,15 @@
 </style>
 
 <nav>
-	<a href="/">
-		<img class="logo no-selection" src="/icon.png" alt="512.kr Sleep Icon">
+	<a href="/" class="no-selection">
+		<img class="logo" src="/icon.png" alt="512.kr Sleep Icon">
 	</a>
 	<div class="icons no-selection">
-		<a href="settings">
-			<img class="icon no-selection {segment==="settings" ? "icon-enabled" : ""}" src="cog-solid.svg" alt="Settings">
+		<a href="settings" class="no-selection">
+			<img class="icon {segment==="settings" ? "icon-enabled" : ""}" src="cog-solid.svg" alt="Settings">
 		</a>
-		<a href="about">
-			<img class="icon no-selection {segment==="about" ? "icon-enabled" : ""}" src="ellipsis-v-solid.svg" alt="About">
+		<a href="about" class="no-selection">
+			<img class="icon {segment==="about" ? "icon-enabled" : ""}" src="ellipsis-v-solid.svg" alt="About">
 		</a>
 	</div>
 </nav>
