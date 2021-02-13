@@ -1,5 +1,6 @@
 <script>
-
+import _sleep from "@ilsubyeega/sleep-js";
+const sleep = new _sleep();
 </script>
 
 <style>
@@ -10,3 +11,4 @@
 	<title>Home (Sleep)</title>
 </svelte:head>
 
+{sleep.getSleepTime(0, 6)}
