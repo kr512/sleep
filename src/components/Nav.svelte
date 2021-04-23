@@ -17,6 +17,7 @@
 		}
 	}
 	.logo {
+		will-change: transform;
 		width: 130px;
 		height: 65px;
 		opacity: 1;
