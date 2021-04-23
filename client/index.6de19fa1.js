@@ -1,1 +1,0 @@
-import{S as e,i as s,s as t,q as a,d as o,n as l}from"./client.6907e043.js";function n(e){return{c(){this.h()},l(e){a('[data-svelte="svelte-kdgsgx"]',document.head).forEach(o),this.h()},h(){document.title="Home (Sleep)"},m:l,p:l,i:l,o:l,d:l}}export default class extends e{constructor(e){super(),s(this,e,null,n,t,{})}}
