@@ -1,6 +1,6 @@
 <script>
-import _sleep from "@ilsubyeega/sleep-js";
-const sleep = new _sleep();
+import _sleepjs from "@ilsubyeega/sleep-js";
+const sleep = new _sleepjs();
 </script>
 
 <style>
